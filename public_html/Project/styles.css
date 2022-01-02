@@ -1,0 +1,66 @@
+.alert-success {
+    background-color: green
+}
+
+.alert-warning {
+    background-color: yellow;
+}
+
+.alert-danger {
+    background-color: red;
+    font-style: bold;
+    
+}
+
+.alert-info {
+    background-color: rgb(190, 255, 255);
+}
+
+#preset {
+    color: white;
+}
+
+input {
+    border-radius: 35%;
+}
+
+body {
+    background-color: rgb(51, 51, 51);
+    color: rgb(71, 98, 252);
+    text-align: center;
+}
+
+h1 {
+    color: white;
+}
+
+/* Styles for nav */
+
+nav li {
+    /* display: inline;
+    float: left; */
+    border-right: 1px solid #bbb;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+    border: rgb(0, 113, 179);
+}
+
+nav li a {
+    color: white;
+    text-align: center;
+    /* display: block; */
+    padding: 14px 16px;
+    background-color: gray;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav li a:hover {
+    color: yellow;
+    background-color: rgb(190, 190, 190);
+}
